@@ -3011,7 +3011,7 @@ body {
 }
 
 .footer__logo-center {
-  width: 263px;
+  width: 153px;
   height: 106px;
 }
 
@@ -3303,4 +3303,16 @@ body {
     right: 200px;
   }
   
+}
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:30px;
+  color:rgb(75, 104, 235);
+  cursor:pointer;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index:2;
 }
